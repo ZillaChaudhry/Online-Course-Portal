@@ -1,0 +1,5 @@
+.card {
+    width: 90%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center the card */
+  }

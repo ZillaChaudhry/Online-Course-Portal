@@ -1,0 +1,54 @@
+.alert-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 20px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    z-index: 1000;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes up at least the full height of the viewport */
+}
+
+.logo {
+    width: 50px; /* Adjust the size of the logo */
+    height: 50px; /* Ensure the height matches the width */
+    border-radius: 50%; /* Make the logo circular */
+    object-fit: cover; /* Ensure the image covers the entire circle */
+}
+
+header {
+    background-color: #333; /* Dark background color for header */
+    color: white;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #333; /* Dark background color for footer */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+.nav-link {
+    padding: 10px 15px;
+}
+
+.nav-link-primary {
+    color: #007bff !important; /* Primary color for the link */
+}

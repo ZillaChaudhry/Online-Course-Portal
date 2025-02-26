@@ -1,0 +1,14 @@
+.navbar-nav .nav-link {
+    color: white !important;
+  }
+  .navbar-toggler {
+    color: white;
+    border-color: white;
+  }
+  .navbar-toggler:hover,
+  .navbar-toggler:focus {
+    color: white;
+    border-color: white;
+  }
+
+  
